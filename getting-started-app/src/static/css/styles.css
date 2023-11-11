@@ -1,0 +1,95 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #root {
+    padding: 20px;
+  }
+  
+  /* Role selection page styles */
+  .role-selection-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Customer page styles */
+  .customer-page {
+    margin-top: 20px;
+  }
+  
+  .take-picture-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .item-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .price-input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    width: calc(100% - 40px);
+  }
+  
+  .submit-item-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #video-background {
+    position: fixed; /* Fixed position to cover the entire screen */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100; /* Place it behind other elements */
+  }
+  
+  .app-container {
+    position: relative;
+  }
+  
+  /* Customer page styles */
+  .customer-page {
+    position: relative; /* Positioned over the video */
+    /* ... existing styles */
+  }
+  
+  /* Driver page styles */
+  .driver-page {
+    position: relative;
+    background-image: url('/workspaces/junk-ez-co.eth/getting-started-app/src/static/css/IMG_0539.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  /* Add this to your style.css */
+.back-button {
+  /* Add your desired styles for the back button here */
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+  /* Driver page styles */
+  /* ... You can add specific styles for driver page as needed */
+  
