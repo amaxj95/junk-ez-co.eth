@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Junk-EZ Co.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -38,6 +38,13 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+### 'docker build'
+
+Uses the dockerfile to build a container image and prepare's the app for private cloud deployments. In short, it does what npm start does, but in a container! Which means port 3000 is proxied to port 80 via nginx, this happens in the dockerfile.
+
+### 'docker run'
+In a terminal type docker run -p 80:80 junk-ez-co.eth
 
 ## Learn More
 
